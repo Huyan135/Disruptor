@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/huyan/disruptor/quickstart/Main.java=UTF-8
+encoding//src/main/java/com/huyan/disruptor/quickstart/OrderEvent.java=UTF-8
+encoding//src/main/java/com/huyan/disruptor/quickstart/OrderEventFactory.java=UTF-8
+encoding//src/main/java/com/huyan/disruptor/quickstart/OrderEventProducer.java=UTF-8
+encoding/<project>=UTF-8
