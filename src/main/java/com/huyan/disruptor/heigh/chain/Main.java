@@ -1,4 +1,4 @@
-package com.huyan.disruptor.heigh;
+package com.huyan.disruptor.heigh.chain;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

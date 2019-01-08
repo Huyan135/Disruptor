@@ -1,12 +1,18 @@
-package com.huyan.disruptor.heigh;
+package com.huyan.disruptor.heigh.multi;
 
-import java.util.concurrent.atomic.AtomicInteger;
+/**
+ * Disruptor中的 Event
+ * @author Alienware
+ *
+ */
+public class Order {
 
-public class Trade {
 	private String id;
 	private String name;
 	private double price;
-	private AtomicInteger count = new AtomicInteger(0);
+
+	public Order() {
+	}
 	public String getId() {
 		return id;
 	}
@@ -25,12 +31,8 @@ public class Trade {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	public AtomicInteger getCount() {
-		return count;
-	}
-	public void setCount(AtomicInteger count) {
-		this.count = count;
-	}
+	
 	
 	
 }
+
